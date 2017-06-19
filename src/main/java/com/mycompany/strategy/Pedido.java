@@ -14,6 +14,7 @@ public class Pedido {
     // para a Strategy base, normalmente uma interface ou classe abstrata
  
     private ICalculadorDeFrete _calculadorDeFrete;
+    
     public Pedido(ICalculadorDeFrete calculadorDeFrete)
     {
         _calculadorDeFrete = calculadorDeFrete;

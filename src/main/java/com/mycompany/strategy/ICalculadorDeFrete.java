@@ -7,14 +7,13 @@ package com.mycompany.strategy;
 
 /**
  *
- * @author Aluno
+ * @author Alun
  */
-public class CalculadorDeFretePadrao implements ICalculadorDeFrete
+
+    public interface ICalculadorDeFrete
 {
-    public double CalcularFretePara(Pedido pedido)
-    {
-        // aqui vai o algoritmo de cálculo de frete "padrão"
-        return 20.00;
-    }
+    double CalcularFretePara(Pedido pedido);
+    
 }
+
 
